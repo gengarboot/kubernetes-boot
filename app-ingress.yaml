@@ -4,7 +4,6 @@ metadata:
   name: app-ingress
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
-
 spec:
   rules:
     - host: synchat.internal
